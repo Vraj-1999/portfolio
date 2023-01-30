@@ -1,0 +1,739 @@
+/* Name     : Vraj Vipinbhai Patel
+Student# : 127723211
+Email    : vvpatel17@myseneca.ca */
+
+
+
+html {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-family: "Beau Rivage", cursive;
+  font-family: "Poppins", sans-serif;
+  background-color: #3a3b3c;
+}
+
+body {
+  
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: #297acc;
+  text-align: var(--bs-body-text-align);
+  background-color: #363434;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.send1:hover{
+  background-color:#585757;
+
+}
+.clear1:hover{
+  background-color:#575555;
+}
+.send1{
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  background-color:rgb(59, 45, 72);
+  padding: 20px;
+  border-radius: 15px;
+  transition: .5s;
+}
+.clear1{
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  background-color:rgb(59, 45, 72);
+  padding: 20px;
+  border-radius: 15px;
+  transition: .5s;
+
+}
+#contact-me-form{
+  display: flex;
+  flex-direction: column;
+}
+#sec1 {
+  display: flex;
+  height: 600px;
+  max-width: 100%;
+  background-color: rgb(19, 22, 49);
+  padding: 20px;
+}
+#image-pic:hover{
+  border: 7px solid white;
+  border-radius: 305px;
+  margin-top: 100px;
+  width: 300px;
+}
+
+#image-pic {
+  border: 3px solid white;
+  border-radius: 205px;
+  margin-top: 80px;
+  width: 260px;
+  transition: 0.5s;
+}
+
+#img1 h1 {
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+}
+#img1 p {
+  font-family: "Times New Roman",;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+article {
+  font-family: "Times New Roman", Times;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+#btn1 {
+  margin: auto;
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#resu_button,
+#cont_button {
+  width: 8em;
+  height: 3.2em;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: medium;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 50px;
+  border-style: none;
+  transition: 0.5s;
+}
+#cont_button{
+  background-color: #ffffff;
+  color: black;
+}
+#btn1 a {
+  text-decoration-line: none;
+  margin: auto 20px;
+}
+#resu_button:hover,
+#cont_button:hover {
+  background-color: #110b86;
+  color: #ffffff;
+}
+#resu_button:active,
+#cont_button:active {
+  background-color: #3dc444;
+
+  transform: translateX(0.5px) translateY(0.5px);
+}
+
+.material-icons-outlined {
+  vertical-align: -3px;
+  margin-right: 8px;
+}
+
+#infogr{
+  padding: 20px;
+  /* max-height: max-content; */
+  background-color: #f5f5f5;
+  color: #393e46;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-areas:
+    "grid1 grid1 grid2"
+    "grid3 grid3 grid2";
+}
+#infogr h2 {
+  font-weight: 300;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+#abME {
+  padding-right: 20px;
+  grid-area: grid1;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#abME p {
+  margin-bottom: 6px;
+}
+#abME p a:link, #abME p a:visited {
+  color:#757575;
+}
+#aabME abbr{
+  text-decoration: none;
+}
+#abME strong {
+  color: #8b8b8b;
+}
+#Info {
+  max-width: 100%;
+  grid-area: grid2;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 20px;
+}
+#Basic_info2 th {
+  width: 60%;
+  padding-right: 0 10px 2px 10px;
+  color: #8b8b8b;
+}
+#true_state {
+  grid-area: grid3;
+  font-size: 18px;
+  padding-right: 20px;
+}
+#true_state p #Date1{
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+
+#Edu1 {
+  margin: 40px 60px 60px;
+}
+#Edu1 h2 {
+  font-size: 30px;
+}
+.edu2con1 {
+  display: flex;
+  margin: 30px;
+  box-shadow: 2px 2px 6px rgb(175, 175, 175);
+}
+.Acdtitle {
+  width: 280px;
+  height: 180px;
+  background-color: #3e405e;
+}
+.Acdtitle h6 {
+  font-weight: bold;
+  margin: 10px;
+  text-align: left;
+  color: #ffffff;
+}
+.Acdtitle h5 {
+  margin: 30px 10px 0;
+  text-align: center;
+  color: #757575;
+}
+.Acdtitle h4 {
+  font-weight: bolder;
+  margin: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+.AcDetail {
+  box-shadow:15px 10px #4f4f4f;
+  width: 750px;
+  background-color: #fafafa;
+  text-align: left;
+  padding: 0 30px;
+}
+.AcDetail h6 {
+  font-weight: bolder;
+  margin: 30px 0 0;
+  color: #bdbdbd;
+}
+.AcDetail h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #3c3c3c;
+}
+
+.AcDetail h3 {
+  font-style: italic;
+  margin: 0;
+  font-size: 1em;
+  color: #757575;
+}
+.AcDetail p {
+  margin-top: 20px;
+}
+
+#ctn_us {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+#ctn_us h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.radio-buttons {
+  text-align: left;
+}
+.btn {
+  width: auto;
+  margin: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+#hourly-rate-form {
+  width: 200px;
+  margin: 0;
+}
+
+.radio-buttons {
+  display: flex;
+  height: auto;
+}
+
+.form-check {
+  margin: 0;
+  text-align: left;
+  height: auto;
+  width: 20px;
+  /* line-height:24px; */
+}
+
+legend {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #3e405e;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.fab .fa-linkedin {
+  font-family: "FONT AWESOME 5 Free";
+  content: "f08c";
+  font-weight: 900;
+}
+.fab .fa-facebook-square {
+  font-family: "FONT AWESOME 5 Free";
+  content: "f082";
+  font-weight: 900;
+}
+
+.fas .fa-envelope {
+  font-family: "FONT AWESOME 5 Free";
+  content: "f0e0";
+  font-weight: 900;
+}
+
+footer i {
+  font-size: 26px;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+footer i:hover {
+  color: rgb(238, 238, 238);
+}
+
+/* minimize the header width less than 960px */
+@media screen and (min-width: 400px) and (max-width: 860px) {
+  #sec1 {
+    display: flex;
+    height: 600px;
+    max-width: 100%;
+    background-color: rgb(19, 22, 49);
+    padding: 20px;
+}
+  #image-pic:hover{
+    border: 7px solid white;
+    border-radius: 305px;
+    margin-top: 100px;
+    width: 300px;
+  }
+  #image-pic {
+    border: 3px solid white;
+    border-radius: 205px;
+    margin-top: 80px;
+    width: 260px;
+    transition: 0.5s;
+  }
+  #img1 h1 {
+    font-size: 46px;
+  }
+  #img1 p {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  #btn1 a {
+    text-decoration-line: none;
+    margin: auto 10px;
+  }
+  #infogr{
+    display: block;
+    padding: 0 10px;
+  }
+  #infogr h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 6px;
+  }
+  #abME{
+    padding: 0;
+  }
+  #abME article {
+    font-size: 14px;
+  }
+  #abME p a:link, #abME p a:visited {
+    color:#757575;
+  }
+  #abME abbr{
+    text-decoration: none;
+  }
+  #Info{
+    width: 100%;
+    padding: 0 10px 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ffffff;
+  }
+  #Basic_info2{
+    width:100%;
+    margin: auto;
+  }
+
+  #Basic_info2 th {
+    font-size: small;
+    text-align: right;
+    padding: 0 30px;
+    width:auto
+  }
+  #true_state {
+    font-size: 14px;
+    padding: 10px 0;
+
+    padding: 0;
+  }
+  #true_state p {
+    margin: 0;
+    padding: 8px 0;
+  }
+  #Edu1
+   {
+    margin: 20px 30px;
+  }
+  .edu2con1 {
+    display: flex;
+    margin: 20px;
+    box-shadow: 2px 2px 6px rgb(175, 175, 175);
+  }
+  .Acdtitle {
+    box-shadow:15px 10px #4f4f4f;
+    position: relative;
+    max-width: 280px;
+    max-height: 140px;
+    background-color: 3e405e;
+  }
+  .Acdtitle h6 {
+    margin: 10px;
+    text-align: left;
+    font-size: clamp(0.8em, 1vw, 1.5em);
+    color: #ffffff;
+  }
+  .Acdtitle h5 {
+    margin: 10px 10px 0;
+    text-align: center;
+    font-size: clamp(0.8em, 1vw, 2em);
+    color: #757575;
+  }
+  .Acdtitle h4 {
+    margin: 10px 10px;
+    text-align: center;
+    font-size: clamp(0.8em, 2vw, 2em);
+    color: #3c3c3c;
+  }
+  .AcDetail {
+    max-width: 750px;
+    max-height: 140px;
+    background-color: #fafafa;
+    text-align: left;
+    padding-left: 0 20px 0 20px;
+  }
+  .AcDetail h6 {
+    margin: 20px 0 0;
+    font-size: clamp(0.5em, 1vw, 1.5em);
+
+    color: #bdbdbd;
+  }
+  .AcDetail h1 {
+    margin: 0;
+    font-size: clamp(0.4em, 3vw, 4em);
+    color: #3c3c3c;
+  }
+
+  .AcDetail h3 {
+    margin: 0;
+    font-size: clamp(0.1em, 2vw, 2em);
+    color: #757575;
+  }
+  .AcDetail p {
+    margin-top: 10px;
+    font-size: clamp(0.8em, 1vw, 1.5em);
+  }
+  #ctn_us{
+    max-width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+
+  footer p {
+    font-size: clamp(12px, vw, 32px);
+  }
+
+  footer i {
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  footer i:hover {
+    color: rgb(238, 238, 238);
+  }
+}
+
+/* narrow */
+@media screen and (max-width: 400px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  #sec1 {
+    display: flex;
+    height: 600px;
+    max-width: 100%;
+    background-color: rgb(19, 22, 49);
+    padding: 20px;
+}
+  #image-pic:hover{
+    border: 7px solid white;
+    border-radius: 305px;
+    margin-top: 100px;
+    width: 300px;
+  }
+  #image-pic {
+    border: 3px solid white;
+    border-radius: 205px;
+    margin-top: 80px;
+    width: 260px;
+    transition: 0.5s;
+  }
+  #img1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+  }
+
+  #img1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  article {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Roboto", sans-serif;
+  }
+
+  #resu_button,
+  #cont_button {
+    max-width: 100%;
+    width: 6.5em;
+    height: 3.2em;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: small;
+  }
+  #cont_button {
+    background-color: #3e405e;
+    color: #f5f5f5;
+  }
+  #btn1 a {
+    text-decoration-line: none;
+    margin: auto 10px;
+  }
+  .material-icons-outlined {
+    vertical-align: -3px;
+    margin-right: 0;
+  }
+
+  #btn1 {
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #infogr {
+    display: block;
+    padding: 0 10px;
+  }
+  #infogr h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 6px;
+  }
+  #abME {
+    padding: 0;
+  }
+  #abME article {
+    font-size: 14px;
+  }
+  #abME p a:link, #abME p a:visited {
+    color:#757575;
+  }
+  #abME abbr{
+    text-decoration: none;
+  }
+
+  #Info{
+    width: 100%;
+    padding: 0 10px 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ffffff;
+  }
+  #Basic_info2{
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  #Basic_info2 th {
+    font-size: smaller;
+    text-align: right;
+    padding: 0 20px;
+  }
+  #true_state {
+    font-size: 14px;
+    padding: 10px 0;
+
+    padding: 0;
+  }
+  #true_state
+   p {
+    margin: 0;
+    padding: 8px 0;
+  }
+  #Edu1 {
+    margin: 6px 6px;
+  }
+  #Edu1 h2 {
+    font-size: 20px;
+  }
+  .edu2con1 {
+    display: flex;
+    margin: 20px 10px;
+    box-shadow: 2px 2px 6px rgb(175, 175, 175);
+  }
+  .Acdtitle {
+    position: relative;
+    max-width: 280px;
+    max-height: 90px;
+    background-color: #3e405e;
+  }
+  .Acdtitle h6 {
+    font-weight: bold;
+    margin: 4px;
+    text-align: left;
+    font-size: clamp(0.5em, 1vw, 0.8em);
+    color: #ffffff;
+  }
+  .Acdtitle h5 {
+    margin: 6px 6px 0;
+    text-align: center;
+    font-size: 10px;
+    color: #757575;
+  }
+  .Acdtitle h4 {
+    margin: 4px 4px;
+    text-align: center;
+    font-size: clamp(0.6em, 2vw, 1.4em);
+    color: #3c3c3c;
+  }
+  .academic-details {
+    max-width: 750px;
+    max-height: 80px;
+    background-color: #fafafa;
+    text-align: left;
+    padding: 0 10px 0 10px;
+  }
+  .academic-details h6 {
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-size: clamp(0.4em, 1vw, 0.8em);
+
+    color: #bdbdbd;
+  }
+  .academic-details h1 {
+    margin: 0;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #3c3c3c;
+  }
+
+  .academic-details h3 {
+    margin: 0;
+    font-size: 8px;
+    color: #757575;
+  }
+  .academic-details p {
+    margin-top: 8px;
+    font-size: 8px;
+  }
+  #ctn_us{
+    padding: 10px 40px;
+  }
+  #ctn_us h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #ctn_us .form-group {
+    padding-top: 5px;
+  }
+}
