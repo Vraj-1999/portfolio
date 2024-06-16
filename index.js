@@ -1,6 +1,4 @@
-// Name     : Vraj Vipinbhai Patel
-// Student# : 127723211
-// Email    : vvpatel17@myseneca.ca 
+
 
 window.onload = function() {
   let form = document.querySelector('#contact-me-form');
